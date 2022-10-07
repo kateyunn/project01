@@ -1,0 +1,170 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+
+/*  Reset CSS  */
+* { margin:0;  padding:0;}
+ol,ul { list-style: none; }
+a { outline:0; text-decoration:none; color:#555; }
+img { border:0;}
+body { font:12px/1.6 arial; color:#555; } 
+
+
+/*메뉴*/
+ul#menu { position: fixed; top: 50px; right: 200px;z-index:13; }
+ul#menu li { float: left; margin-left: 30px; }
+ul#menu li a {  display:block; font-family:righteous; font-size:14px; color:#e73391; text-align:right; overflow:hidden; box-sizing:border-box;  border-top:1px solid #e73391;  opacity:0.8; transition:all 0.5s;font-weight: bold;  }
+ul#menu li:hover a { font-size:24px;  opacity:1; color:#d4164c; border-color:#d4164c; }
+ul#menu li.on a { font-size:24px; opacity:1;color:#005a89; border-color:#005a89;}
+
+
+
+/*레이아웃*/
+section { width:100%; height:700px; position:relative; background-size:cover; background-attachment:fixed; overflow:hidden;}
+section:nth-child(1) {background-color: #000; }
+section:nth-child(2) { background-image:url(../img/image/my\ skill.png); }
+section:nth-child(3) { background-image:url(../img/image/MY\ story.png); }
+section:nth-child(4) { }
+section:nth-child(5) { background-color: #000; }
+
+
+/*텍스트 박스*/
+/* article { position:absolute;  z-index:11;} */
+article p { font-family:righteous; font-size:50px; letter-spacing:2px;} 
+article span { font-size:30px; }
+/* I`m CHIERI WATANUKI */
+section:nth-child(1) article {width: 100%; height: 200px;  position: relative; top: 50%;}
+section:nth-child(1) p { position:absolute;color:#fff;top:20px;left:670px; z-index: 5; opacity: .6; transform: all 2s; }
+section:nth-child(1) span  { position:absolute;color:#fff; top:90px;left:750px; z-index: 5; opacity: .5;}
+
+
+/* My Skills */
+section:nth-child(2) p {position:absolute; color:#560733;; top:46%;right: 400px; }
+section:nth-child(2) span { position:absolute;color:#560733;}
+
+/* History */
+section:nth-child(3) p { position:absolute;color:#560733;top:46%;left: 400px;}
+section:nth-child(3) span { color:#ffec6a;}
+
+/* My work */
+section:nth-child(4) p { position:absolute;color:#560733;top:46%;left: 830px;}
+section:nth-child(4) span { color:#111;}
+
+/* Contact Me */
+section:nth-child(5) p { position:absolute;color:#960e58;top:13%;left: 250px;z-index: 3;}
+section:nth-child(5) span {position:absolute;top: 450px;left: 300px; color:white;font-size: 20px;z-index: 3;}
+
+/*첫 번째 박스 이미지*/
+.p11 { position:absolute; bottom:40px; right:565px;}
+.p12 { position:absolute; top:60px; right: 400px;}
+.p13 { position:absolute;  top: -180px;right:400px;}
+.p14 { position:absolute; top:38px; right: 610px;}
+.p15 { position:absolute; top:550px; right:330px;}
+
+
+/* gallery6 */
+article div.gallery{overflow: hidden;cursor:pointer; background-size: cover; background-position: center;} 
+
+/* 배경이미지 삽입 */
+article div.gallery1{position:absolute; top:100px; left:350px;width:25%;height:250px;background-color: #ccc;background: url(../img/gucci.png) no-repeat center center/cover;}
+
+article div.gallery1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+article div.gallery2{position:absolute; top:100px;  right:380px;width:35%;height:250px;background-color: #666;background: url(../img/gucci.png) no-repeat center center/cover;}
+article div.gallery2 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+article div.gallery3{position:absolute; top:375px; right:380px;width:20%;height:250px;background-color: #222;background: url(../img/mouse.png) no-repeat center center/cover;}
+article div.gallery3 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+article div.gallery4{position:absolute; top:375px; right:380px;width:20%;height:250px;background-color: #222;background: url(../img/mouse.png) no-repeat center center/cover;}
+article div.gallery4 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+article div.gallery5{position:absolute; bottom:40px; left: 350px;width:35%;height:250px;background-color: #555;background: url(../img/rnew1.png) no-repeat center center/cover;}
+article div.gallery5 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+article div.gallery6{position:absolute; bottom:40px; right:380px;width:25%;height:250px;background-color: #444;background: url(../img/gucci.png) no-repeat center center/cover;} 
+article div.gallery6 a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* 이미지 박스 */
+
+article div.gallery span { font-size: 60px; color: #fff; position: absolute; bottom: 0; right: 20px; transform: scale(10); opacity: 0; transition: all .6s; }
+article div.bg1 span { font-size: 170px; bottom: -76px; right: -6px; opacity: 1; transform: scale(1); transition: all .5s; }
+
+/* 이미지 박스 호버 효과 */
+article:hover div.gallery span { opacity: 1; transform: scale(1); }
+article div.gallery:hover span { transform: rotateY(360deg); color: #222; }
+
+ /* 다섯 번째 박스  */
+
+section article img{ position:absolute; width: 100%;height: px; padding-top:250px ; }
+
+
+#contact {
+    position: relative;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .foot_cont1 ul {
+    color: #fff;
+    font-size: 24px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer .foot_cont2 h2 {
+    font-size: 25px;
+    color: #fff;
+
+    padding-right: 60px;
+}
+
+/* footer { position: absolute; bottom: 0; left: 0; width: 100%; height: 150px; background-color: #010101; border-top: 1px solid #222; z-index: 5; }
+footer ul { width: 40%; height: 30px; float: left; margin-left: 30px; margin-top: 50px; }
+footer ul li { float: left; width: 20%; text-align: center; }
+footer ul li a { font: 20px/2 arial; color: #555; }
+footer ul li:nth-child(1) a { font-weight: 1000; color: #777; }
+footer ul li:nth-child(2) a { font-weight: 1000; color: #777; }
+footer span {  position: absolute;font: 15px/2 Noto Sans KR; color: #666; float: right; letter-spacing: 1px; margin-right: 40px; margin-top: 50px; z-index: 5;}
+
+footer p {
+    color: #fff;
+} */
+
+
+
+
