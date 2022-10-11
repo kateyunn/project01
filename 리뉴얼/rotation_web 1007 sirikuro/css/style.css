@@ -41,7 +41,7 @@ section > div.on > p { transform: rotateY(0deg); }
 section > div > p > span { display: block; text-align: center; position: absolute; width: 100%; top: 50%; margin-top: -10px; font-size: 20px; color: #eee;} 
 section > div > p > strong { display: block; text-align: center; position: absolute; width: 100%; top: 50%; font-size: 50px; color: #fff; margin-top: -25px;}
 
-section > div > p > video { width: 100%; }
+section > div > p > video { width: 100%;}
 
 section > div > p > em > a > i { font-size: 30px !important; color: #eee; margin: 0 15px; position: relative; top: 50%; margin-top: -15px; opacity: .5; transition: all .5s; }
 section > div > p > em > a:hover > i {transform: scale(1.2); opacity: 1; }
@@ -58,9 +58,7 @@ section > div.box1 > p:nth-child(5) { width: 25%;  background: url(../img/img/me
 section > div.box1 > p:nth-child(6) { width: 25%; background-color: #5c633d; float: right;}
 section > div.box1 > p:nth-child(7) { width: 25%; background-color: #777; float: right;}
 section > div.box1 > p:nth-child(7) video {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+  width: 100%; object-fit: fill;
 }
 section > div.box1 > p:nth-child(8) { width: 25%; background-color: #666; float: right; background: url(../img/guuci18.avif) no-repeat center/cover; }
 
