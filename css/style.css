@@ -23,7 +23,7 @@ section { width:100%; height:700px; position:relative; background-size:cover; ba
 section:nth-child(1) {background-color: #000; }
 section:nth-child(2) { background-image:url(../img/image/my\ skill.png); }
 section:nth-child(3) { background-image:url(../img/image/MY\ story.png); }
-section:nth-child(4) { }
+/* section:nth-child(4) { } */
 section:nth-child(5) { background-color: #000; }
 
 
@@ -73,14 +73,14 @@ article div.gallery1 a {
     display: block;
 }
 
-article div.gallery2{position:absolute; top:100px;  right:380px;width:35%;height:250px;background-color: #666;background: url(../img/gucci.png) no-repeat center center/cover;}
+article div.gallery2{position:absolute; top:100px;  right:380px;width:35%;height:250px;background-color: #666;background: url(../img/taiga\ kari.png) no-repeat center/cover;}
 article div.gallery2 a {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-article div.gallery3{position:absolute; top:375px; right:380px;width:20%;height:250px;background-color: #222;background: url(../img/mouse.png) no-repeat center center/cover;}
+article div.gallery3{position:absolute; top:375px; left: 350px;width:20%;height:250px;background-color: #333;background: url(../img/panorama.png) no-repeat center/cover;}
 article div.gallery3 a {
     width: 100%;
     height: 100%;
@@ -92,13 +92,13 @@ article div.gallery4 a {
     height: 100%;
     display: block;
 }
-article div.gallery5{position:absolute; bottom:40px; left: 350px;width:35%;height:250px;background-color: #555;background: url(../img/rnew1.png) no-repeat center center/cover;}
+article div.gallery5{position:absolute; bottom:40px; left: 290px;width:35%;height:250px;background-color: #555;background: url(../img/rnew1.png) no-repeat center center/cover;}
 article div.gallery5 a {
     width: 100%;
     height: 100%;
     display: block;
 }
-article div.gallery6{position:absolute; bottom:40px; right:380px;width:25%;height:250px;background-color: #444;background: url(../img/gucci.png) no-repeat center center/cover;} 
+article div.gallery6{position:absolute; bottom:40px; right:380px;width:25%;height:250px;background-color: #444;background: url(../img/hotel\ kari.png) no-repeat center center/cover;} 
 article div.gallery6 a {
     width: 100%;
     height: 100%;
