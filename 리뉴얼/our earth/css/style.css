@@ -18,7 +18,7 @@ section article.sky img.sun{
 section article.sky img.cloud1{position:absolute; top:0px; left:10%; animation:flow linear 10s infinite;}
 section article.sky img.cloud2{position:absolute; top:10px; left:0; animation:flow linear 20s infinite;}
 
-section article.earth2 img.earth21 {position:absolute;width: 1400px; top:10px; left: -180px; opacity:.7;
+section article.earth2 img.earth21 {position:absolute;width: 1600px; top:10px; left: -330px; opacity:.7;
 animation:rotation linear 20s infinite;}
 /* section article.town img.earth{position:absolute;top:3px;left:30px;margin-left:-150px;opacity:.7;width: 500px;
 animation:rotation linear 10s infinite;} */
